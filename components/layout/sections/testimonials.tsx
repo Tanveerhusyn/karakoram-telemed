@@ -73,7 +73,9 @@ export function TestimonialsSection() {
                 <p className="text-sm text-primary">
                   Doctor: {testimonial.doctor}
                 </p>
-                <p className="text-muted-foreground">"{testimonial.text}"</p>
+                <p className="text-muted-foreground">
+                  &ldquo;{testimonial.text}&rdquo;
+                </p>
               </div>
             </CardContent>
           </Card>
